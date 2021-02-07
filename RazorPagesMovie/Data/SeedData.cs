@@ -53,7 +53,8 @@ namespace RazorPagesMovie.Models
                         Title = "Rio Bravo",
                         ReleaseDate = DateTime.Parse("1959-4-15"),
                         Genre = "Western",
-                        Price = 3.99M
+                        Price = 3.99M,
+                        Rating = "PG-13"
                     }
                 );
                 context.SaveChanges();
